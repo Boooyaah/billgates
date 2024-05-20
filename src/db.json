@@ -1,0 +1,55 @@
+{
+    "items":[
+        {
+            "id":1,
+            "img":"https://www.agaburger.com.tr/wp-content/uploads/2021/01/classic-1.jpg",
+            "title":"Burger",
+            "price":50,
+            "keyWord":"burger"
+
+        },
+        {
+            "id":1,
+            "img":"https://images.migrosone.com/macrocenter/product/8011740/TUR54491250_A1NG_yan-24650b.png",
+            "title":"Coca-cola",
+            "price":30,
+            "keyWord":"cocaCola"
+
+        },
+        {
+            "id":1,
+            "img":"https://neal.fun/spend/images/boeing-747.jpg",
+            "title":"Airbus Plane",
+            "price":20000000,
+            "keyWord":"airbusPlane"
+
+        },
+        {
+            "id":1,
+            "img":"https://neal.fun/spend/images/mansion.jpg",
+            "title":"House",
+            "price":18000000,
+            "keyWord":"house"
+
+        },
+        {
+            "id":1,
+            "img":"https://neal.fun/spend/images/cruise-ship.jpg",
+            "title":"Ship",
+            "price":20000000,
+            "keyWord":"ship"
+
+        },
+    
+    
+    
+       
+        {
+            "id":1,
+            "img":"https://neal.fun/spend/images/formula-1-car.jpg",
+            "title":"Formula Car",
+            "price":15000000,
+            "keyWord":"formulaCar"
+        }
+    ]
+}

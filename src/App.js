@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import axios from "axios";
+import { useState, useEffect } from "react";
+import ItemMap from "./Components/ItemMap";
+import "./App.css";
+
 
 function App() {
+  const [items, setItems] = useState([]);
+
+  const fetchItems = async () => {
+  const response= await axios.get("http://localhost:3000/items")
+  setItems(response.data)
+  };
+  useEffect(() => {
+    fetchItems();
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+    <div className=" bg-slate-100 min-h-screen">
+      <ItemMap items={items} />
     </div>
   );
 }
